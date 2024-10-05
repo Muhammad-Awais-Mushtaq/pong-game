@@ -1,0 +1,52 @@
+/* General Page Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Canvas Styling */
+canvas {
+    display: block;
+    background: #f9f9f9; /* Light grey background for contrast */
+    border: 5px solid #000; /* Thicker black border to make the box stand out */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Darker shadow for depth */
+}
+
+/* Scoreboard Styles */
+#scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin-top: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#scoreboard div {
+    padding: 10px 30px;
+    background: #111;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Adding hover effect for better UI interaction */
+#scoreboard div:hover {
+    background-color: #2a5298;
+    cursor: default;
+}
+h1{
+    color: #f9f9f9;
+}
+h1:hover{
+    color: blueviolet;
+}
